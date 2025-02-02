@@ -1,8 +1,8 @@
 //  Primitive
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
-
-const score = 100
+let score;
+console.log(typeof score)
 const scoreValue = 100.3
 
 const isLoggedIn = false
