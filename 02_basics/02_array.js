@@ -6,8 +6,8 @@ const dc_heros = ["superman", "flash", "batman"]
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
 
-// const allHeros = marvel_heros.concat(dc_heros)
-// console.log(allHeros);
+const allHeros = marvel_heros.concat(dc_heros)
+console.log(allHeros);
 
 const all_new_heros = [...marvel_heros, ...dc_heros]   //spread method
 
@@ -20,7 +20,7 @@ console.log(real_another_array);
 
 
 
-console.log(Array.isArray(234))
+console.log(Array.isArray(another_array))
 console.log(Array.from("Hitesh"))
 console.log(Array.from({name: "hitesh"})) // interesting as it doesnt know to make array for key or value so it will give yoy empty array
 
