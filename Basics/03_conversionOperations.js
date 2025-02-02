@@ -22,8 +22,26 @@
 //"" => false;
 
 
-let someNumber =33;
-let str=String(someNumber);
-console.log(str);
-console.log(typeof str)
+// let someNumber =33;
+// let str=String(someNumber);
+// console.log(str);
+// console.log(typeof str)
 
+
+//**************************Operations*************************/
+
+let value=3
+let negValue=-value
+
+// console.log(negValue);
+
+// let str1=1+"2"
+// console.log(str1+typeof str1)
+
+// let str2="1"+2
+// console.log(str2+typeof str2)
+
+// let str3=1+2+"3"
+// console.log(str3+typeof str3)
+
+console.log(1+1+false)
